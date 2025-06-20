@@ -1,0 +1,338 @@
+{
+  "fashion_types": [
+    { "id": 1, "name": "hat", "src": "/generate/fashion/1.png" },
+    { "id": 2, "name": "pants", "src": "/generate/fashion/2.png" },
+    { "id": 3, "name": "shirt", "src": "/generate/fashion/3.png" },
+    { "id": 4, "name": "jacket", "src": "/generate/fashion/4.png" },
+    { "id": 5, "name": "shoes", "src": "/generate/fashion/5.png" },
+    { "id": 6, "name": "socks", "src": "/generate/fashion/6.png" },
+    { "id": 7, "name": "scarf", "src": "/generate/fashion/7.png" },
+    { "id": 8, "name": "gloves", "src": "/generate/fashion/8.png" },
+    { "id": 9, "name": "shorts", "src": "/generate/fashion/9.png" },
+    { "id": 10, "name": "skirt", "src": "/generate/fashion/10.png" },
+    { "id": 11, "name": "dress", "src": "/generate/fashion/11.png" },
+    { "id": 12, "name": "blouse", "src": "/generate/fashion/12.png" },
+    { "id": 13, "name": "sweater", "src": "/generate/fashion/13.png" },
+    { "id": 14, "name": "hoodie", "src": "/generate/fashion/14.png" },
+    { "id": 15, "name": "tie", "src": "/generate/fashion/15.png" },
+    { "id": 16, "name": "belt", "src": "/generate/fashion/16.png" },
+    { "id": 17, "name": "coat", "src": "/generate/fashion/17.png" },
+    { "id": 18, "name": "underwear", "src": "/generate/fashion/18.png" },
+    { "id": 19, "name": "swimsuit", "src": "/generate/fashion/19.png" },
+    { "id": 20, "name": "vest", "src": "/generate/fashion/20.png" },
+    { "id": 21, "name": "t-shirt", "src": "/generate/fashion/21.png" },
+    { "id": 22, "name": "jeans", "src": "/generate/fashion/22.png" },
+    { "id": 23, "name": "leggings", "src": "/generate/fashion/23.png" },
+    { "id": 24, "name": "boots", "src": "/generate/fashion/24.png" },
+    { "id": 25, "name": "sandals", "src": "/generate/fashion/25.png" },
+    { "id": 26, "name": "sneakers", "src": "/generate/fashion/26.png" },
+    { "id": 27, "name": "raincoat", "src": "/generate/fashion/27.png" },
+    { "id": 28, "name": "poncho", "src": "/generate/fashion/28.png" },
+    { "id": 29, "name": "cardigan", "src": "/generate/fashion/29.png" }
+  ],
+  "brand_prices": [
+    { "id": 1, "name": "Exclusive", "value": "exclusive" },
+    { "id": 2, "name": "Premium", "value": "premium" },
+    { "id": 3, "name": "Luxury", "value": "luxury" },
+    { "id": 4, "name": "Affordable", "value": "affordable" },
+    { "id": 5, "name": "Budget", "value": "budget" }
+  ],
+  "regions": [
+    {
+      "id": 1,
+      "name": "Africa",
+      "value": "africa",
+      "src": "/generate/regions/1.png"
+    },
+    {
+      "id": 2,
+      "name": "Asia",
+      "value": "asia",
+      "src": "/generate/regions/2.png"
+    },
+    {
+      "id": 3,
+      "name": "Europe",
+      "value": "europe",
+      "src": "/generate/regions/3.png"
+    },
+    {
+      "id": 4,
+      "name": "South America",
+      "value": "south_america",
+      "src": "/generate/regions/4.png"
+    },
+    {
+      "id": 5,
+      "name": "North America",
+      "value": "north_america",
+      "src": "/generate/regions/5.png"
+    }
+  ],
+  "regions_new": [
+    { "id": 1, "name": "ID - Aceh", "value": "id - aceh" },
+    { "id": 2, "name": "ID - North Sumatra", "value": "id - north sumatra" },
+    { "id": 3, "name": "ID - West Sumatra", "value": "id - west sumatra" },
+    { "id": 4, "name": "ID - Riau", "value": "id - riau" },
+    { "id": 5, "name": "ID - Riau Islands", "value": "id - riau islands" },
+    { "id": 6, "name": "ID - Jambi", "value": "id - jambi" },
+    { "id": 7, "name": "ID - South Sumatra", "value": "id - south sumatra" },
+    {
+      "id": 8,
+      "name": "ID - Bangka Belitung Islands",
+      "value": "id - bangka belitung islands"
+    },
+    { "id": 9, "name": "ID - Bengkulu", "value": "id - bengkulu" },
+    { "id": 10, "name": "ID - Lampung", "value": "id - lampung" },
+    { "id": 11, "name": "ID - Banten", "value": "id - banten" },
+    {
+      "id": 12,
+      "name": "ID - Jakarta Special Capital Region",
+      "value": "id - jakarta special capital region"
+    },
+    { "id": 13, "name": "ID - West Java", "value": "id - west java" },
+    { "id": 14, "name": "ID - Central Java", "value": "id - central java" },
+    {
+      "id": 15,
+      "name": "ID - Yogyakarta Special Region",
+      "value": "id - yogyakarta special region"
+    },
+    { "id": 16, "name": "ID - East Java", "value": "id - east java" },
+    { "id": 17, "name": "ID - Bali", "value": "id - bali" },
+    {
+      "id": 18,
+      "name": "ID - West Nusa Tenggara",
+      "value": "id - west nusa tenggara"
+    },
+    {
+      "id": 19,
+      "name": "ID - East Nusa Tenggara",
+      "value": "id - east nusa tenggara"
+    },
+    {
+      "id": 20,
+      "name": "ID - West Kalimantan",
+      "value": "id - west kalimantan"
+    },
+    {
+      "id": 21,
+      "name": "ID - Central Kalimantan",
+      "value": "id - central kalimantan"
+    },
+    {
+      "id": 22,
+      "name": "ID - South Kalimantan",
+      "value": "id - south kalimantan"
+    },
+    {
+      "id": 23,
+      "name": "ID - East Kalimantan",
+      "value": "id - east kalimantan"
+    },
+    {
+      "id": 24,
+      "name": "ID - North Kalimantan",
+      "value": "id - north kalimantan"
+    },
+    { "id": 25, "name": "ID - West Sulawesi", "value": "id - west sulawesi" },
+    { "id": 26, "name": "ID - South Sulawesi", "value": "id - south sulawesi" },
+    {
+      "id": 27,
+      "name": "ID - Central Sulawesi",
+      "value": "id - central sulawesi"
+    },
+    {
+      "id": 28,
+      "name": "ID - Southeast Sulawesi",
+      "value": "id - southeast sulawesi"
+    },
+    { "id": 29, "name": "ID - Gorontalo", "value": "id - gorontalo" },
+    { "id": 30, "name": "ID - North Sulawesi", "value": "id - north sulawesi" },
+    { "id": 31, "name": "ID - Maluku", "value": "id - maluku" },
+    { "id": 32, "name": "ID - North Maluku", "value": "id - north maluku" },
+    { "id": 33, "name": "ID - West Papua", "value": "id - west papua" },
+    {
+      "id": 34,
+      "name": "ID - Southwest Papua",
+      "value": "id - southwest papua"
+    },
+    { "id": 35, "name": "ID - Central Papua", "value": "id - central papua" },
+    { "id": 36, "name": "ID - Highland Papua", "value": "id - highland papua" },
+    { "id": 37, "name": "ID - South Papua", "value": "id - south papua" },
+    { "id": 38, "name": "ID - Papua", "value": "id - papua" },
+    { "id": 39, "name": "JP - Hokkaido", "value": "jp - hokkaido" },
+    { "id": 40, "name": "JP - Aomori", "value": "jp - aomori" },
+    { "id": 41, "name": "JP - Iwate", "value": "jp - iwate" },
+    { "id": 42, "name": "JP - Miyagi", "value": "jp - miyagi" },
+    { "id": 43, "name": "JP - Akita", "value": "jp - akita" },
+    { "id": 44, "name": "JP - Yamagata", "value": "jp - yamagata" },
+    { "id": 45, "name": "JP - Fukushima", "value": "jp - fukushima" },
+    { "id": 46, "name": "JP - Ibaraki", "value": "jp - ibaraki" },
+    { "id": 47, "name": "JP - Tochigi", "value": "jp - tochigi" },
+    { "id": 48, "name": "JP - Gunma", "value": "jp - gunma" },
+    { "id": 49, "name": "JP - Saitama", "value": "jp - saitama" },
+    { "id": 50, "name": "JP - Chiba", "value": "jp - chiba" },
+    { "id": 51, "name": "JP - Tokyo", "value": "jp - tokyo" },
+    { "id": 52, "name": "JP - Kanagawa", "value": "jp - kanagawa" },
+    { "id": 53, "name": "JP - Niigata", "value": "jp - niigata" },
+    { "id": 54, "name": "JP - Toyama", "value": "jp - toyama" },
+    { "id": 55, "name": "JP - Ishikawa", "value": "jp - ishikawa" },
+    { "id": 56, "name": "JP - Fukui", "value": "jp - fukui" },
+    { "id": 57, "name": "JP - Yamanashi", "value": "jp - yamanashi" },
+    { "id": 58, "name": "JP - Nagano", "value": "jp - nagano" },
+    { "id": 59, "name": "JP - Gifu", "value": "jp - gifu" },
+    { "id": 60, "name": "JP - Shizuoka", "value": "jp - shizuoka" },
+    { "id": 61, "name": "JP - Aichi", "value": "jp - aichi" },
+    { "id": 62, "name": "JP - Mie", "value": "jp - mie" },
+    { "id": 63, "name": "JP - Shiga", "value": "jp - shiga" },
+    { "id": 64, "name": "JP - Kyoto", "value": "jp - kyoto" },
+    { "id": 65, "name": "JP - Osaka", "value": "jp - osaka" },
+    { "id": 66, "name": "JP - Hyogo", "value": "jp - hyogo" },
+    { "id": 67, "name": "JP - Nara", "value": "jp - nara" },
+    { "id": 68, "name": "JP - Wakayama", "value": "jp - wakayama" },
+    { "id": 69, "name": "JP - Tottori", "value": "jp - tottori" },
+    { "id": 70, "name": "JP - Shimane", "value": "jp - shimane" },
+    { "id": 71, "name": "JP - Okayama", "value": "jp - okayama" },
+    { "id": 72, "name": "JP - Hiroshima", "value": "jp - hiroshima" },
+    { "id": 73, "name": "JP - Yamaguchi", "value": "jp - yamaguchi" },
+    { "id": 74, "name": "JP - Tokushima", "value": "jp - tokushima" },
+    { "id": 75, "name": "JP - Kagawa", "value": "jp - kagawa" },
+    { "id": 76, "name": "JP - Ehime", "value": "jp - ehime" },
+    { "id": 77, "name": "JP - Kochi", "value": "jp - kochi" },
+    { "id": 78, "name": "JP - Fukuoka", "value": "jp - fukuoka" },
+    { "id": 79, "name": "JP - Saga", "value": "jp - saga" },
+    { "id": 80, "name": "JP - Nagasaki", "value": "jp - nagasaki" },
+    { "id": 81, "name": "JP - Kumamoto", "value": "jp - kumamoto" },
+    { "id": 82, "name": "JP - Oita", "value": "jp - oita" },
+    { "id": 83, "name": "JP - Miyazaki", "value": "jp - miyazaki" },
+    { "id": 84, "name": "JP - Kagoshima", "value": "jp - kagoshima" },
+    { "id": 85, "name": "JP - Okinawa", "value": "jp - okinawa" }
+  ],
+  "cultures": [
+    {
+      "id": 1,
+      "name": "Muslim",
+      "value": "muslim",
+      "src": "/generate/cultures/1.png"
+    },
+    {
+      "id": 2,
+      "name": "Western",
+      "value": "western",
+      "src": "/generate/cultures/2.png"
+    },
+    {
+      "id": 3,
+      "name": "Japanese",
+      "value": "japanese",
+      "src": "/generate/cultures/3.png"
+    },
+    {
+      "id": 4,
+      "name": "Indian",
+      "value": "indian",
+      "src": "/generate/cultures/4.png"
+    },
+    {
+      "id": 5,
+      "name": "African",
+      "value": "african",
+      "src": "/generate/cultures/5.png"
+    },
+    {
+      "id": 6,
+      "name": "Latin American",
+      "value": "latin american",
+      "src": "/generate/cultures/6.png"
+    },
+    {
+      "id": 7,
+      "name": "Scandinavian",
+      "value": "scandinavian",
+      "src": "/generate/cultures/7.png"
+    },
+    {
+      "id": 8,
+      "name": "Southeast Asian",
+      "value": "southeast asian",
+      "src": "/generate/cultures/8.png"
+    },
+    {
+      "id": 9,
+      "name": "Chinese",
+      "value": "chinese",
+      "src": "/generate/cultures/9.png"
+    },
+    {
+      "id": 10,
+      "name": "Korean",
+      "value": "korean",
+      "src": "/generate/cultures/10.png"
+    },
+    {
+      "id": 11,
+      "name": "Slavic",
+      "value": "slavic",
+      "src": "/generate/cultures/11.png"
+    },
+    {
+      "id": 12,
+      "name": "Middle Eastern",
+      "value": "middle eastern",
+      "src": "/generate/cultures/12.png"
+    }
+  ],
+  "seasons": [
+    {
+      "id": 1,
+      "name": "Winter",
+      "value": "winter",
+      "src": "/generate/seasons/1.png"
+    },
+    {
+      "id": 2,
+      "name": "Summer",
+      "value": "summer",
+      "src": "/generate/seasons/2.png"
+    },
+    {
+      "id": 3,
+      "name": "Spring",
+      "value": "spring",
+      "src": "/generate/seasons/3.png"
+    },
+    {
+      "id": 4,
+      "name": "Autumn",
+      "value": "autumn",
+      "src": "/generate/seasons/4.png"
+    }
+  ],
+  "weathers": ["Rain", "Snow", "Sunny", "Cloudy"],
+  "platforms": [
+    {
+      "id": 1,
+      "name": "Online Store",
+      "value": "Online Store",
+      "src": "/generate/platforms/1.png"
+    },
+    {
+      "id": 2,
+      "name": "Offline Store",
+      "value": "Offline Store",
+      "src": "/generate/platforms/2.png"
+    }
+  ],
+  "material": [
+    "Cotton",
+    "Wool",
+    "Silk",
+    "Linen",
+    "Polyester",
+    "Denim",
+    "Leather",
+    "Nylon",
+    "Rayon",
+    "Synthetic"
+  ]
+}
