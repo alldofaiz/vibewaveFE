@@ -139,6 +139,7 @@ export default function SignUpSection() {
                   value={username}
                   onChange={(e) => setUsername(e.target.value)}
                   maxLength={64}
+                  minLength={6}
                   placeholder="Username"
                   required
                   className="border-2 rounded-lg px-5 py-2 text-primary font-semibold bg-secondary"
@@ -153,6 +154,7 @@ export default function SignUpSection() {
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   maxLength={64}
+                  minLength={6}
                   placeholder="Email"
                   required
                   className="border-2 rounded-lg px-5 py-2 text-primary font-semibold bg-secondary"
@@ -167,6 +169,7 @@ export default function SignUpSection() {
                   value={telegram_user_id}
                   onChange={(e) => setTelegram(e.target.value)}
                   maxLength={64}
+                  minLength={6}
                   placeholder="Telegram User ID"
                   required
                   className="border-2 rounded-lg px-5 py-2 text-primary font-semibold bg-secondary"
@@ -202,6 +205,7 @@ export default function SignUpSection() {
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
                   maxLength={64}
+                  minLength={6}
                   placeholder="Password"
                   required
                   onCopy={(e) => e.preventDefault()}
@@ -226,6 +230,7 @@ export default function SignUpSection() {
                   value={confirmPassword}
                   onChange={(e) => setConfirmPassword(e.target.value)}
                   maxLength={64}
+                  minLength={6}
                   placeholder="Password"
                   required
                   onCopy={(e) => e.preventDefault()}
